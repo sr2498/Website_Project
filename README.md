@@ -1,2 +1,2 @@
-# Website_Project
-Create website in this project.
+# Website_Clone_Project
+In this project, I will create website clone from other website.
