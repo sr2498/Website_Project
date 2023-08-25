@@ -48,6 +48,7 @@
 }
 
 .add-icon {
+    font-size: 20px;
     display: flex; /* Flex behavior for the address icon and text */
     align-items: center; /* Align contents vertically */  
 }
