@@ -1,19 +1,21 @@
 * {
     margin: 0;
     font-family: Arial;
-    box-sizing: border-box; /* Corrected typo from 'border' to 'box' */
+    border: border-box;
 }
 
 .navbar {
+    display: flex;
+    align-items: center;
     height: 60px;
     background-color: #0f1111;
     color: white;
-    display: flex;
-    align-items: center; /* Center vertically within the flex container */
-    padding: 0 20px; /* Add some padding to the navbar */
-}
+    justify-content: space-evenly;
+    }
 
 .nav-logo {
+    height: 50px;
+    width: 200px;
     display: flex; /* This ensures flex behavior for the inner elements */
     align-items: center; /* Align the contents vertically within nav-logo */
 }
@@ -22,17 +24,91 @@
     background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
-    width: 135px;
-    border: 1.8px solid transparent; /* Add initial transparent border */
-    transition: border 0.5s ease; /* Add transition for smooth hover effect */
+    width: 100%;
 }
 
-.logo:hover {
-    border: 1.8px solid white; /* Apply white border on hover */
+.border {
+    border: 2px solid transparent; /* Add initial transparent border */
+}
+
+.border:hover {
+    border: 2px solid white; /* Apply white border on hover */
+}
+
+/* box2 */
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
 }
 
 .add-icon {
     display: flex; /* Flex behavior for the address icon and text */
-    align-items: center; /* Align contents vertically */
-    margin-left: 20px; /* Add some spacing between the address icon and text */
+    align-items: center; /* Align contents vertically */  
+}
+
+
+/* box3 */
+.nav-search {
+    display:flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(239, 183, 51);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* box4 */
+span {
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+.nav-cart i {
+    font-size: 28px;
+}
+
+.nav-cart {
+    font-size: 0.9rem;
+    font-weight: 700;
 }
