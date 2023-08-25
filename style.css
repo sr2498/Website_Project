@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box; /* Corrected typo from 'border' to 'box' */
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center; /* Center vertically within the flex container */
+    padding: 0 20px; /* Add some padding to the navbar */
+}
+
+.nav-logo {
+    display: flex; /* This ensures flex behavior for the inner elements */
+    align-items: center; /* Align the contents vertically within nav-logo */
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 135px;
+    border: 1.8px solid transparent; /* Add initial transparent border */
+    transition: border 0.5s ease; /* Add transition for smooth hover effect */
+}
+
+.logo:hover {
+    border: 1.8px solid white; /* Apply white border on hover */
+}
+
+.add-icon {
+    display: flex; /* Flex behavior for the address icon and text */
+    align-items: center; /* Align contents vertically */
+    margin-left: 20px; /* Add some spacing between the address icon and text */
+}
