@@ -13,7 +13,7 @@ This dynamic project showcases my expertise in web development through a meticul
 
 **Footer Section:** A comprehensive footer with links to various parts of the website, mirroring Amazon's extensive navigation.
 
-## Technologies Utilized:
+## 🛠️ Technologies Utilized:
 
 - HTML5
 - CSS3
