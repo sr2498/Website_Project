@@ -25,6 +25,6 @@ This dynamic project showcases my expertise in web development through a meticul
 
 This project is a testament to my commitment to crafting immersive web experiences and my dedication to continuous learning in the realm of web development. Let's connect and discuss how I can bring my skills to your team!
 
-
 ## Screenshot:
+
 ![Screen Shot 2023-09-04 at 2 08 53 PM](https://github.com/sr2498/Website_Project/assets/134464080/7a955a7b-2f03-4e90-82d3-ae80f22a2f88)
