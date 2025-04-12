@@ -3,7 +3,6 @@
     font-family: Arial;
     border: border-box;
 }
-
 .navbar {
     display: flex;
     align-items: center;
@@ -12,21 +11,18 @@
     color: white;
     justify-content: space-evenly;
     }
-
 .nav-logo {
     height: 60px;
     width: 200px;
     display: flex; /* This ensures flex behavior for the inner elements */
     align-items: center; /* Align the contents vertically within nav-logo */
 }
-
 .logo {
     background-image: url("amazon_logo.png");
     background-size: cover;
     height: 70px;
     width: 100%;
 }
-
 .border {
     border: 2px solid transparent; /* Add initial transparent border */
 }
