@@ -1,6 +1,6 @@
-# 🌟 Amazon Clone Project-Crafting an E-commerce Experience 🌟
+# Amazon Clone Project-Crafting an E-commerce Experience
 
-## Welcome to my Amazon Clone Project! 🚀
+## Welcome to my Amazon Clone Project! 
 This dynamic project showcases my expertise in web development through a meticulous reconstruction of Amazon's iconic user interface using HTML and CSS. As a testament to my skills, here's what you'll find:
 
 **Responsive Design:** The project boasts a responsive layout, adapting seamlessly to diverse screen sizes and devices, providing an optimal user experience.
@@ -14,7 +14,7 @@ This dynamic project showcases my expertise in web development through a meticul
 **Footer Section:** A comprehensive footer with links to various parts of the website, mirroring Amazon's extensive navigation.
 
 
-## 🛠️ Technologies Utilized:
+## Technologies Utilized:
 
 - HTML5
 - CSS3
